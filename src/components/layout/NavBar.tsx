@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import foodLogo from "../assets/food-logo.png"; // Update path as needed
+import foodLogo from "../../assets/food-logo.png"; // Update path as needed
 
 const NavBar = () => {
   const location = useLocation();

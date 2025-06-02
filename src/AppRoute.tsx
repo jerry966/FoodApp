@@ -1,37 +1,77 @@
-import React, { Suspense, lazy } from "react";
-import { Routes, Route } from "react-router-dom";
+// filepath: c:\Users\richa\OneDrive\Desktop\Richa\GitHubReactProject\FoodApp\src\AppRoutes.tsx
+import React, { lazy, Suspense } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import PageTransition from "./components/ui/PageTransition";
 
-// Lazy load components
-const Home = lazy(() => import("./pages/Home"));
-const Offers = lazy(() => import("./pages/Offers"));
-const CategoryPage = lazy(() => import("./pages/CategoryPage"));
-const NonVeg = lazy(() => import("./pages/NonVeg"));
-const Veg = lazy(() => import("./pages/Veg"));
-
-
-// Loading fallback component
-const LoadingFallback = () => (
-  <div className="container text-center mt-5">
-    <div className="spinner-border" role="status">
-      <span className="visually-hidden">Loading...</span>
-    </div>
-    <p className="mt-2">Loading...</p>
+// Loading component for Suspense
+const LoadingSpinner = () => (
+  <div className="flex justify-center items-center h-[70vh]">
+    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-main"></div>
   </div>
 );
 
+// Lazy load all pages
+const Home = lazy(() => import("./pages/Home"));
+const Offers = lazy(() => import("./pages/Offers"));
+const CategoryPage = lazy(() => import("./pages/CategoryPage"));
+// const NotFound = lazy(() => import("./pages/NotFound"));
+
+// Define routes configuration array
+const routes = [
+  {
+    path: "/",
+    caseSensitive: true,
+    element: (
+      <PageTransition>
+        <Home />
+      </PageTransition>
+    ),
+  },
+  {
+    path: "/offers",
+    caseSensitive: true,
+    element: (
+      <PageTransition>
+        <Offers />
+      </PageTransition>
+    ),
+  },
+  {
+    path: "/category/:type",
+    caseSensitive: true,
+    element: (
+      <PageTransition>
+        <CategoryPage />
+      </PageTransition>
+    ),
+  },
+  // {
+  //   path: "/404",
+  //   caseSensitive: true,
+  //   element: (
+  //     <PageTransition>
+  //       <NotFound />
+  //     </PageTransition>
+  //   ),
+  // },
+  {
+    path: "*",
+    element: <Navigate to="/404" replace />,
+  },
+];
+
 const AppRoutes: React.FC = () => {
   return (
-    <Suspense fallback={<LoadingFallback />}>
+    <Suspense fallback={<LoadingSpinner />}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/offers" element={<Offers />} />
-
-        {/* Specific category routes */}
-        <Route path="/category/veg" element={<Veg />} />
-        <Route path="/category/non-veg" element={<NonVeg />} />
-
-        {/* Generic category route for any other types */}
-        <Route path="/category/:type" element={<CategoryPage />} />
+        {routes.map((route, index) => (
+          <Route
+            key={index}
+            path={route.path}
+            element={route.element}
+            caseSensitive={route.caseSensitive}
+          />
+        ))}
       </Routes>
     </Suspense>
   );

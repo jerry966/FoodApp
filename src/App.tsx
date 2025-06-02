@@ -1,13 +1,19 @@
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/layout/NavBar";
+import Footer from "./components/layout/Footer";
 import AppRoutes from "./AppRoute";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
-      <AppRoutes />
+      <div className="flex flex-col min-h-screen">
+        <NavBar />
+        <main className="flex-grow">
+          <AppRoutes />
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
