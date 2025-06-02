@@ -1,0 +1,15 @@
+{
+    "hero": {
+        "title": "Delicious Food Delivered to Your Door",
+        "subtitle": "Order from your favorite restaurants and enjoy a wide variety of cuisines right at your doorstep.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1470&h=600",
+        "primaryButton": {
+            "text": "Order Now",
+            "link": "/menu"
+        },
+        "secondaryButton": {
+            "text": "View Offers",
+            "link": "/offers"
+        }
+    }
+}

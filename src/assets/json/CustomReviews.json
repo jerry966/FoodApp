@@ -1,0 +1,36 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Sarah Johnson",
+            "rating": 5,
+            "comment": "The food was amazing and delivery was super fast! Will definitely order again.",
+            "date": "2025-05-15",
+            "profileImage": "https://randomuser.me/api/portraits/women/12.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Michael Chen",
+            "rating": 5,
+            "comment": "Best food delivery app I've used. Great selection and excellent customer service.",
+            "date": "2025-05-10",
+            "profileImage": "https://randomuser.me/api/portraits/men/22.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Emily Rodriguez",
+            "rating": 5,
+            "comment": "The app is so easy to use and the food always arrives hot and fresh. 10/10!",
+            "date": "2025-05-05",
+            "profileImage": "https://randomuser.me/api/portraits/women/32.jpg"
+        },
+        {
+            "id": 4,
+            "name": "David Wilson",
+            "rating": 4,
+            "comment": "Great variety of restaurants to choose from. Delivery is always on time.",
+            "date": "2025-04-28",
+            "profileImage": "https://randomuser.me/api/portraits/men/42.jpg"
+        }
+    ]
+}

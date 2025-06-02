@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+@layer components {
+  
+  .section-title {
+    @apply text-base font-poppins font-bold text-secondary;
+  }
+  .section-title-primary { 
+    @apply text-xs font-poppins font-bold text-primary;
+  }
+
+  .title-lg {
+   @apply text-base font-poppins font-semibold text-main;
+  }
+
+  .title-base-primary {
+    @apply text-sm font-poppins font-semibold text-main;
+  }
+
+  .title-base-secondary {
+    @apply text-sm font-poppins font-semibold text-secondaryText;
+  }
+
+  .subtitle-primary {
+    @apply text-xs font-poppins font-semibold text-main;
+  }
+
+  .subtitle-secondary {
+    @apply text-xs font-poppins font-semibold text-secondaryText;
+  }
+
+  .large-text {
+    @apply text-2xl font-poppins font-bold text-main;
+  }
+
+  .small-text {
+    @apply text-[9px] font-poppins font-semibold text-white;
+  }
+
+  .divide {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    width: 100%;
+  }
+}
+

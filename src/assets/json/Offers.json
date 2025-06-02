@@ -1,0 +1,36 @@
+{
+   "offers": [
+        {
+            "id": 1,
+            "title": "50% OFF on First Order",
+            "code": "FIRST50",
+            "description": "Get 50% off up to $10 on your first order",
+            "expiry": "June 30, 2025",
+            "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=300&h=200"
+        },
+        {
+            "id": 2,
+            "title": "Free Delivery",
+            "code": "FREEDEL",
+            "description": "Free delivery on orders above $15",
+            "expiry": "July 15, 2025",
+            "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=300&h=200"
+        },
+        {
+            "id": 3,
+            "title": "20% OFF on Family Meals",
+            "code": "FAMILY20",
+            "description": "Special discount on all family meal combos",
+            "expiry": "June 15, 2025",
+            "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=300&h=200"
+        },
+        {
+            "id": 4,
+            "title": "Buy 1 Get 1 Free",
+            "code": "BOGO2025",
+            "description": "Buy one pizza, get one free on weekends",
+            "expiry": "July 31, 2025",
+            "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&q=80&w=300&h=200"
+        }
+    ]
+}

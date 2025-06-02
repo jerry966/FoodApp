@@ -1,0 +1,25 @@
+{
+    "steps": [
+        {
+            "id": 1,
+            "title": "Select Your Food",
+            "description": "Browse through our extensive menu and select your favorite dishes",
+            "icon": "🍔",
+            "bgColor": "bg-secondary/20"
+        },
+        {
+            "id": 2,
+            "title": "Easy Payment",
+            "description": "Pay with your preferred payment method securely",
+            "icon": "💳",
+            "bgColor": "bg-secondary/20"
+        },
+        {
+            "id": 3,
+            "title": "Fast Delivery",
+            "description": "Get your food delivered to your doorstep in no time",
+            "icon": "🚚",
+            "bgColor": "bg-secondary/20"
+        }
+    ]
+}

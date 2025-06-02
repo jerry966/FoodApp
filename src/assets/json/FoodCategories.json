@@ -1,0 +1,46 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "icon": "🍕",
+            "link": "/category/pizza",
+            "description": "Classic and gourmet pizzas"
+        },
+        {
+            "id": 2,
+            "name": "Burgers",
+            "icon": "🍔",
+            "link": "/category/burgers",
+            "description": "Juicy beef and veg burgers"
+        },
+        {
+            "id": 3,
+            "name": "Salads",
+            "icon": "🥗",
+            "link": "/category/salads",
+            "description": "Fresh and healthy options"
+        },
+        {
+            "id": 4,
+            "name": "Desserts",
+            "icon": "🍰",
+            "link": "/category/desserts",
+            "description": "Sweet treats and cakes"
+        },
+        {
+            "id": 5,
+            "name": "Drinks",
+            "icon": "🥤",
+            "link": "/category/drinks",
+            "description": "Refreshing beverages"
+        },
+        {
+            "id": 6,
+            "name": "Indian",
+            "icon": "🍛",
+            "link": "/category/indian",
+            "description": "Authentic Indian cuisine"
+        }
+    ]
+}
