@@ -4,7 +4,7 @@ import foodLogo from "../../assets/food-logo.png";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-yellow-600 text-white pt-12 pb-6">
+    <footer className="py-16 px-6 md:px-12 bg-gradient-to-r from-primary to-secondary text-white">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo and About */}

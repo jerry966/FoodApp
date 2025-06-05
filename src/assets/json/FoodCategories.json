@@ -1,46 +1,88 @@
 {
     "categories": [
         {
-            "id": 1,
-            "name": "Pizza",
-            "icon": "🍕",
-            "link": "/category/pizza",
-            "description": "Classic and gourmet pizzas"
+            "id": 7,
+            "name": "Pasta",
+            "icon": "🍝",
+            "link": "/category/pasta",
+            "description": "Delicious Italian-style pastas"
         },
         {
-            "id": 2,
-            "name": "Burgers",
-            "icon": "🍔",
-            "link": "/category/burgers",
-            "description": "Juicy beef and veg burgers"
+            "id": 8,
+            "name": "Wraps",
+            "icon": "🌯",
+            "link": "/category/wraps",
+            "description": "Tasty wraps and rolls"
         },
         {
-            "id": 3,
-            "name": "Salads",
-            "icon": "🥗",
-            "link": "/category/salads",
-            "description": "Fresh and healthy options"
+            "id": 9,
+            "name": "Bowls",
+            "icon": "🥣",
+            "link": "/category/bowls",
+            "description": "Healthy grain and protein bowls"
         },
         {
-            "id": 4,
-            "name": "Desserts",
-            "icon": "🍰",
-            "link": "/category/desserts",
-            "description": "Sweet treats and cakes"
+            "id": 10,
+            "name": "Soups",
+            "icon": "🍜",
+            "link": "/category/soups",
+            "description": "Warm and hearty soups"
         },
         {
-            "id": 5,
-            "name": "Drinks",
-            "icon": "🥤",
-            "link": "/category/drinks",
-            "description": "Refreshing beverages"
+            "id": 11,
+            "name": "Vegan",
+            "icon": "🌱",
+            "link": "/category/vegan",
+            "description": "Plant-based meals for everyone"
         },
         {
-            "id": 6,
-            "name": "Indian",
-            "icon": "🍛",
-            "link": "/category/indian",
-            "description": "Authentic Indian cuisine"
+            "id": 12,
+            "name": "Seafood",
+            "icon": "🦐",
+            "link": "/category/seafood",
+            "description": "Fresh and flavorful seafood dishes"
+        },
+        {
+            "id": 13,
+            "name": "Asian",
+            "icon": "🍱",
+            "link": "/category/asian",
+            "description": "Tasty dishes from across Asia"
+        },
+        {
+            "id": 14,
+            "name": "Mexican",
+            "icon": "🌮",
+            "link": "/category/mexican",
+            "description": "Bold flavors from Mexican cuisine"
+        },
+        {
+            "id": 15,
+            "name": "Breakfast",
+            "icon": "🍳",
+            "link": "/category/breakfast",
+            "description": "Start your day right"
+        },
+        {
+            "id": 16,
+            "name": "Snacks",
+            "icon": "🍟",
+            "link": "/category/snacks",
+            "description": "Quick bites and sides"
+        },
+        {
+            "id": 17,
+            "name": "Grill",
+            "icon": "🔥",
+            "link": "/category/grill",
+            "description": "Grilled meats and veggies with smoky flavor"
+        },
+        {
+            "id": 18,
+            "name": "Kids Menu",
+            "icon": "🧒",
+            "link": "/category/kids",
+            "description": "Tasty and fun meals for kids"
         }
     ]
 }

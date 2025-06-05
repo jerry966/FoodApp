@@ -1,4 +1,3 @@
-// filepath: c:\Users\richa\OneDrive\Desktop\Richa\GitHubReactProject\FoodApp\src\AppRoutes.tsx
 import React, { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import PageTransition from "./components/ui/PageTransition";
@@ -14,7 +13,7 @@ const LoadingSpinner = () => (
 const Home = lazy(() => import("./pages/Home"));
 const Offers = lazy(() => import("./pages/Offers"));
 const CategoryPage = lazy(() => import("./pages/CategoryPage"));
-// const NotFound = lazy(() => import("./pages/NotFound"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Define routes configuration array
 const routes = [
@@ -45,15 +44,15 @@ const routes = [
       </PageTransition>
     ),
   },
-  // {
-  //   path: "/404",
-  //   caseSensitive: true,
-  //   element: (
-  //     <PageTransition>
-  //       <NotFound />
-  //     </PageTransition>
-  //   ),
-  // },
+  {
+    path: "/404",
+    caseSensitive: true,
+    element: (
+      <PageTransition>
+        <NotFound />
+      </PageTransition>
+    ),
+  },
   {
     path: "*",
     element: <Navigate to="/404" replace />,
