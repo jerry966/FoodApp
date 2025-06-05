@@ -1,4 +1,30 @@
-# React + TypeScript + Vite
+A modern web application built with **React**, **Vite**, and **Tailwind CSS**.
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🛠️ Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### 📥 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
