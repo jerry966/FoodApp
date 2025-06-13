@@ -14,6 +14,7 @@ const Home = lazy(() => import("./pages/Home"));
 const Offers = lazy(() => import("./pages/Offers"));
 const CategoryPage = lazy(() => import("./pages/CategoryPage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const AddToCart = lazy(() => import("./pages/AddToCart"));
 
 // Define routes configuration array
 const routes = [
@@ -23,6 +24,15 @@ const routes = [
     element: (
       <PageTransition>
         <Home />
+      </PageTransition>
+    ),
+  },
+  {
+    path: "/add-to-cart",
+    caseSensitive: true,
+    element: (
+      <PageTransition>
+        <AddToCart />
       </PageTransition>
     ),
   },

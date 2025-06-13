@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "../ui/Card";
-import Button from "../ui/Button";
 
 type FeaturedItem = {
   id: number;
@@ -70,9 +69,9 @@ const FeaturedItems: React.FC<FeaturedItemsProps> = ({ featuredItems }) => {
           ))}
         </div>
 
-        <div className="text-center mt-10">
+        {/* <div className="text-center mt-10">
           <Button variant="outline">View All Menu</Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
