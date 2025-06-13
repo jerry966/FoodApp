@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "../ui/SectionTitle";
 import Card from "../ui/Card";
-import Button from "../ui/Button";
 
 type FeaturedItem = {
   id: number;
